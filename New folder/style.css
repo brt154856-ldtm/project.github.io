@@ -1,0 +1,212 @@
+* {
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #000;
+}
+body {
+  font-family: "Old Standard TT", serif;
+}
+.page {
+  position: relative;
+  width: 1280px;
+  height: 9170px;
+  margin: 0;
+  overflow: hidden;
+  background: #c87900;
+  color: #fff7d2;
+}
+.background {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1280px;
+  height: 9170px;
+  display: block;
+}
+.history {
+  position: absolute;
+  left: 100px;
+  top: 1000px;
+  width: 1000px;
+  font-size: 40px;
+  line-height: 1.18;
+}
+.heading {
+  position: absolute;
+  font-size: 46px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  white-space: nowrap;
+}
+.styles {
+  left: 500px;
+  top: 2090px;
+  transform: rotate(18deg);
+  font-size: 80px;
+  letter-spacing: 7px;
+}
+.label {
+  position: absolute;
+  color: #171717;
+  font-size: 28px;
+  padding: 1px 8px;
+}
+.bold {
+  left: 250px;
+  top: 2160px;
+  font-size: 90px;
+  font-weight: 700;
+  transform: rotate(-15deg);
+}
+.italic {
+  left: 80px;
+  top: 2320px;
+  font-size: 90px;
+  color:#ffffff;
+  font-style: italic;
+  transform: rotate(10deg);
+}
+.regular {
+  left: 225px;
+  top: 2490px;
+  font-size: 90px;
+  transform: rotate(-5deg);
+}
+.glyphs {
+  left: 400px;
+  top: 3000px;
+  font-size: 100px;
+}
+.glyph-list {
+  position: absolute;
+  left: 100px;
+  top: 3150px;
+  width: 1000px;
+  text-align: center;
+  font-size: 50px;
+  line-height: 1.22;
+  letter-spacing: 4px;
+}
+.features {
+  left: 400px;
+  top: 4500px;
+  font-size: 60px;
+  letter-spacing: 1px;
+}
+.large-letter {
+  position: absolute;
+  font-weight: 400;
+  line-height: 1;
+}
+.letter-k {
+  left: 700px;
+  top: 4680px;
+  font-size: 600px;
+  transform: rotate(-12deg);
+}
+.caption {
+  position: absolute;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 4px;
+  line-height: 1.3;
+}
+.cap-k {
+  left: 800px;
+  top: 5220px;
+  width: 260px;
+  font-size: 70px;
+}
+.letter-x {
+  left: 20px;
+  top: 5000px;
+  font-size: 600px;
+}
+
+.cap-x {
+  left: 200px;
+  top: 5900px;
+  width: 500px;
+  font-size: 70px;
+}
+.letter-sh {
+  left: 700px;
+  top: 6190px;
+  font-size: 400px;
+}
+.cap-sh {
+  left: 440px;
+  top: 4620px;
+  width: 360px;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+.systems {
+  left: 30px;
+  top: 7800px;
+  width: 380px;
+  color: #1b1307;
+  font-size: 50px;
+  transform: rotate(16deg);
+}
+.latin, .cyrillic {
+  position: absolute;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+.latin {
+  left: 105px;
+  top: 7400px;
+  font-size: 50px;
+}
+.cyrillic {
+  left: 860px;
+  top: 8000px;
+  font-size: 50px;
+}
+.alphabet {
+  position: absolute;
+  top: 800px;
+  font-size: 23px;
+  color: #20170b;
+  
+  padding: 5px 8px;
+  letter-spacing: 4px;
+}
+.latin-row {
+  left: 8px;
+  top: 8180px;
+  font-size: 60px;
+}
+.cyrillic-row {
+  left: 820px;
+  top: 8100px;
+  font-size: 60px;
+}
+.footer-name {
+  position: absolute;
+  left: 30px;
+  bottom: 22px;
+  font-size: 13px;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  color: #fff7d2;
+}
+
+.letter-ts {
+    position: absolute;
+    left: 410px;
+    top: 6400px;
+    font-size: 300px;
+    line-height: 1;
+}
+
+.letter-d {
+    left: 280px;
+    top: 5400px;
+    font-size: 500px;
+    line-height: 1;
+}
